@@ -1,0 +1,23 @@
+# Rust / Cargo
+target/
+Cargo.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Secrets / Sensitive Data (Examples - Adapt as needed!)
+# *.pem
+# *.key
+# .env
+
+# Build artifacts / Logs
+*.log
+*~
+*.swp
+

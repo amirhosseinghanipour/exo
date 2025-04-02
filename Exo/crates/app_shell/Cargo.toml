@@ -1,0 +1,18 @@
+[package]
+name = "app_shell"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "exo"
+path = "src/main.rs"
+
+[dependencies]
+iced = { workspace = true }
+tokio = { workspace = true }
+browser_core = { path = "../browser_core" }
+shared_types = { path = "../shared_types" }
+log = { workspace = true }
+env_logger = { workspace = true }
+anyhow = { workspace = true }
+url = { workspace = true }
