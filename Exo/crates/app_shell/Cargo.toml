@@ -16,3 +16,6 @@ log = { workspace = true }
 env_logger = { workspace = true }
 anyhow = { workspace = true }
 url = { workspace = true }
+tokio-stream = { workspace = true }
+futures = { workspace = true }
+futures-util = { workspace = true }

@@ -1,0 +1,9 @@
+[package]
+name = "process_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = { workspace = true }
+shared_types = { path = "../shared_types" }
+tokio = { workspace = true }
